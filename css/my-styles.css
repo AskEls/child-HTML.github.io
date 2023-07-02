@@ -1,0 +1,74 @@
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(248, 249, 250); 
+  /*background: rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex:1;
+  font-family: Arial, sans-serif;
+}
+
+.buton-project{
+  font-size: 10px;
+  padding: 0.5rem;
+  font-family: 'Lobster', cursive;
+  float: right;
+}
+
+.descript-project{
+  padding: 0.5rem;
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+}
+.descript-project img{
+  border-radius: 10px;
+}
+.descript-project h5{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.descript-project p{
+  font-size: 13px;
+}
+
+.skill-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.skill-item h3{
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+
+.f-lobster{
+  font-family: 'Lobster', cursive;
+}
+
+.porto_section{
+  padding-top: 1rem;
+}
+
+
+.porto_section {
+  background-color: rgba(248, 249, 250); /* abu-abu dengan tingkat transparansi 50% */
+  backdrop-filter: blur(10px); /* Efek blur */
+  padding: 20px; /* Jarak antara konten dan batas section */
+  margin: 20px; /* Jarak antara section dan elemen lain */
+  border-radius: 15px; /* Sudut melengkung pada batas section */
+}
+
